@@ -1,4 +1,4 @@
-## Rivers App API
+## Node Sequelize API
 This is the api for the Rivers State app.
 
 # Technologies
