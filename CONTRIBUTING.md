@@ -72,8 +72,6 @@ Set your node env variable (development, testing or production) in the .env\
     ```
         npx sequelize-cli db:seed:all
     ```
-# Usage
-> Check swagger .yaml file in the docs folder for API documentation
 
 # Testing
 To run integrated test\
@@ -82,10 +80,4 @@ To run integrated test\
     ```
 >>>
 Updates to the db should only be done using sequelize migrations and the migration executed again and all new additions should be thoroughly tested before shipping
->>>
-
-# Documentation
->>>
-The API docs is a swagger .yaml file
-After any update, the documentation should be updated to reflect changes.
 >>>

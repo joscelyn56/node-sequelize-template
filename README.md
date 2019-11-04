@@ -76,6 +76,3 @@ To run test\
     ```
         npm run test
     ```
-
-# Usage
-> Check swagger .yaml file in the docs folder for API documentation
