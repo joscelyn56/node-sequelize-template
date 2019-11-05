@@ -1,8 +1,14 @@
+const db = require('./../src/config/models/index')
+
 const request = require('supertest')
 const app = require('../src/server/app')
 
 let token = ''
 let userId = ''
+
+afterAll(() => {
+    db.sequelize.close()
+})
 
 describe('Create new user', () => {
     test('It should signup successful ', async() => {
