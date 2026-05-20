@@ -13,7 +13,7 @@ const {
 const Utils = require('../utils/utils')
 const config = require('../config/config.js')
 
-const uuidv4 = require('uuid/v4')
+const { v4: uuidv4 } = require('uuid')
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs')
 
